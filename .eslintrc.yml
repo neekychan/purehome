@@ -1,0 +1,8 @@
+extends: airbnb-standard
+env:
+  node: true
+globals:
+  console: false
+rules:
+  jsx-a11y/href-no-hash: off
+  no-console: off

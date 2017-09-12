@@ -1,0 +1,28 @@
+{
+  "name": "purehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neekychan/purehome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neekychan/purehome/issues"
+  },
+  "homepage": "https://github.com/neekychan/purehome#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-standard": "^1.4.1",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "log4js": "^2.3.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
