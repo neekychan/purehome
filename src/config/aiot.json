@@ -1,3 +1,4 @@
 {
-  "apiHost": "https://aiot-rpc-3rd.aqara.cn"
+  "apiHost": "https://aiot-rpc-3rd.aqara.cn",
+  "gatewayPort": 9898
 }

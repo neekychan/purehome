@@ -1,4 +1,4 @@
-extends: airbnb-standard
+extends: airbnb
 env:
   node: true
 globals:
@@ -6,3 +6,5 @@ globals:
 rules:
   jsx-a11y/href-no-hash: off
   no-console: off
+  comma-dangle: off
+  import/newline-after-import: off

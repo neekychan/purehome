@@ -1,11 +1,11 @@
 const request = require('../network/request');
 
 class Device {
-  constructor (did) {
+  constructor(did) {
     this.did = did;
   }
 
-  async getDevice () {
+  async getDevice() {
     const data = await request.aiot({
       url: '/open/device/query',
       playload: {

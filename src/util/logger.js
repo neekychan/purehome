@@ -3,12 +3,9 @@ const loggerConfig = require('./loggerConfig');
 
 class Logger {
   constructor() {
-    if (process.env.NODE_ENV == 'production') {
-      log4js.configure(loggerConfig)
+    if (process.env.NODE_ENV === 'production') {
+      log4js.configure(loggerConfig);
     }
-  }
-  geta() {
-    
   }
 }
 

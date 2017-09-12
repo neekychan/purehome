@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "status": 1, // 0 - 关闭 1 - 开启
+  "title": "婴儿房灯光控制方案",
+  "period": [],
+  /**
+   * 前置条件 
+   * 类型： 时间、地点、设备状态、场景
+   */
+  "condictions": [{
+    "id": 1,
+    "time": "18:00~"
+  }],
+  "condiction_exp": "1 AND 2 OR 3",
+  "actions": [{
+    "sort": 1,
+    "sid": 1111,
+    "command": "ON",
+    "condiction": [{
+      "sid": 1111,
+      "status": "OFF-LIGHT"
+    }]
+  }]
+}
